@@ -1,7 +1,13 @@
 import "./App.css";
 
+import CardCandidate from "./component/CardCandidate/CardCandidate";
+
 function App() {
-  return <div className="text-3xl">coucou</div>;
+  return (
+    <div>
+      <CardCandidate />
+    </div>
+  );
 }
 
 export default App;
